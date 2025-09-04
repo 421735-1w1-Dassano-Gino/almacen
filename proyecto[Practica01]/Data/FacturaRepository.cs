@@ -42,7 +42,7 @@ namespace proyecto_Practica01_.Data
             throw new NotImplementedException(); 
         }
     }
-    public class DetalleFacturaRepository : IDetalleFacturas
+    public class DetalleFacturaRepository : IDetalleFacturasRepository
     {
         public List<DetalleFactura> GetAll()
         {
@@ -55,7 +55,7 @@ namespace proyecto_Practica01_.Data
                 DetalleFactura df = new DetalleFactura();
                 df.idDetalle = (int)row["idDetalle"];
                 df.idFactura = (int)row["idFactura"];
-                df.articulo = (int)row["articulo"];
+                df.articulo = (string)row["nombre"];
                 df.Cantidad = (int)row["cantidad"];
                 lst.Add(df);
             }

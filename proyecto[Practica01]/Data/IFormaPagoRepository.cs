@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace proyecto_Practica01_.Data
 {
-    public interface FormaPagoRepository
+    public interface IFormaPagoRepository
     {
         List<FormaPago> GetAll();
         FormaPago GetById(int id);
@@ -21,7 +21,7 @@ namespace proyecto_Practica01_.Data
         bool Save (Factura factura);
         bool Delete (Factura factura);
     }
-    public interface IDetalleFacturas
+    public interface IDetalleFacturasRepository
     {
         List <DetalleFactura> GetAll();
 

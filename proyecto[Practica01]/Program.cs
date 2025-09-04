@@ -1,9 +1,16 @@
 ﻿using proyecto_Practica01_.Servicio;
 using proyecto_Practica01_.Dominio;
 
-FacturaServicio oServicio = new FacturaServicio();
-List<Factura> lp = oServicio.GetFacturas();
-if (lp.Count > 0)
-    foreach (Factura f in lp)
-        Console.WriteLine(f);
-else Console.WriteLine("No hay facturas");
+FacturaServicio fServicio = new FacturaServicio();
+List<Factura> fc = fServicio.GetFacturas();
+
+DetalleServicio detalleServicio = new DetalleServicio();
+List<DetalleFactura> dc = detalleServicio.GetDetalleFacturas();
+
+ArticuloServicio articuloServicio = new ArticuloServicio();
+List<Articulo> ac = articuloServicio.GetArticulos();
+
+if (ac.Count > 0)
+    foreach (Articulo a in ac)
+        Console.WriteLine(a);
+else Console.WriteLine("No hay Detalles");

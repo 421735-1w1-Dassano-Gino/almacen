@@ -25,4 +25,36 @@ namespace proyecto_Practica01_.Servicio
             return _facturaRepository.Save(factura);
         }
     }
+    public class DetalleServicio
+    {
+        private IDetalleFacturasRepository _detalleFacturasRepository;
+        public DetalleServicio()
+        {
+            _detalleFacturasRepository = new DetalleFacturaRepository();
+        }
+        public List<DetalleFactura> GetDetalleFacturas()
+        {
+            return _detalleFacturasRepository.GetAll();
+        }
+        public bool SaveDetalle(DetalleFactura detalleFactura)
+        {
+            return _detalleFacturasRepository.Save(detalleFactura);
+        }
+    }
+    public class ArticuloServicio
+    {
+        private IArticuloRepository _articuloRepository;
+        public ArticuloServicio()
+        {
+            _articuloRepository = new ArticuloRepository();
+        }
+        public List<Articulo> GetArticulos()
+        {
+            return _articuloRepository.GetAll();
+        }
+        public bool SaveArticulo(Articulo articulo)
+        {
+            return _articuloRepository.Save(articulo);
+        }
+    }
 }

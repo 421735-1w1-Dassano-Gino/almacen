@@ -13,7 +13,10 @@ namespace proyecto_Practica01_.Dominio
 
         public int PrecioUnitario { get; set; }
 
-
+        public override string ToString()
+        {
+            return id_articulo + " - " + Nombre + " - " + PrecioUnitario;
+        }
 
     }
 }
