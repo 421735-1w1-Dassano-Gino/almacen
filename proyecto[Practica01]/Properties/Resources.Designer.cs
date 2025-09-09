@@ -61,7 +61,7 @@ namespace proyecto_Practica01_.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=PCALEJO\SQLEXPRESS;Initial Catalog=pcomercio;Integrated Security=True;Trust Server Certificate=True.
+        ///   Busca una cadena traducida similar a Data Source=(localdb)\Bases;Initial Catalog=pqcomercio;Integrated Security=True.
         /// </summary>
         internal static string CadenaConexionLocal {
             get {

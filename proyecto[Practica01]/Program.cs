@@ -22,8 +22,8 @@ else Console.WriteLine("No hay Detalles");
 //---------------------------------------------------------------------
 
 Articulo MiArticulo = new Articulo();
-MiArticulo.id_articulo = 5;
-MiArticulo.Nombre = "Monster";
+//MiArticulo.id_articulo = 1; //update
+MiArticulo.Nombre = "Speed";
 MiArticulo.PrecioUnitario = 2500.4M;
 
 bool resultado = oServicio.SaveArticulo(MiArticulo);
@@ -39,7 +39,7 @@ else
 //                                   SAVE factura
 //---------------------------------------------------------------------
 Factura Mifactura = new Factura();
-Mifactura.nro_factura = 2;
+//Mifactura.nro_factura = 2; //update
 Mifactura.Fecha = DateTime.Today;
 Mifactura.id_formapago = 3;
 Mifactura.Cliente = "facundo";
@@ -56,7 +56,20 @@ else
 
 //                                   SAVE detallefactura
 //---------------------------------------------------------------------
+ DetalleFactura Midetalle = new DetalleFactura();
+//Midetalle.idDetalle = 29; //update
+Midetalle.idFactura = 1;
+Midetalle.id_articulo = 1;
+Midetalle.Cantidad = 1;
 
-
+bool dfrdo = detalleServicio.SaveDetalle(Midetalle);
+if (dfrdo)
+{
+    Console.WriteLine("Se a guardado con exito el detalle");
+}
+else
+{
+    Console.WriteLine("No se a podido guardar el detalle");
+}
 
 

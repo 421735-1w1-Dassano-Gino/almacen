@@ -16,7 +16,6 @@ namespace proyecto_Practica01_.Data.Helpers
         private DataHelper()
         {
             _connection = new SqlConnection(Properties.Resources.CadenaConexionLocal);
-           // _connection = new SqlConnection(@"Data Source=PCALEJO\SQLEXPRESS;Initial Catalog=pcomercio;Integrated Security=True");
         }
         public static DataHelper GetInstance()
         {

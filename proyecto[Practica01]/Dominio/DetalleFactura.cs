@@ -13,6 +13,8 @@ namespace proyecto_Practica01_.Dominio
 
         public string articulo { get; set; }
 
+        public int id_articulo { get; set; }
+
         public int Cantidad { get; set; }
 
         public override string ToString()
