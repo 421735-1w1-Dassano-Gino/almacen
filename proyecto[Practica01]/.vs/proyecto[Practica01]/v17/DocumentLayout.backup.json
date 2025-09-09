@@ -1,46 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\",
+  "WorkspaceRootPath": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\servicio\\facturaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:servicio\\facturaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\helpers\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:data\\helpers\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:data\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:data\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\data\\helpers\\spparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:data\\helpers\\spparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\servicio\\facturaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:servicio\\facturaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gomez\\desktop\\almacen\\almacen\\proyecto[practica01]\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|c:\\users\\gino\\desktop\\almacen\\almacen\\proyecto[practica01]\\dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FE5C64-23D6-4AD6-B750-9D4DB64A334F}|proyecto[Practica01].csproj|solutionrelative:dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,159 +57,136 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\FacturaRepository.cs",
+              "RelativeToolTip": "Data\\FacturaRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:29:55.241Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\Helpers\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Data\\Helpers\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\Helpers\\DataHelper.cs",
+              "RelativeToolTip": "Data\\Helpers\\DataHelper.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T01:59:57.314Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\DetalleFactura.cs",
+              "RelativeDocumentMoniker": "Dominio\\DetalleFactura.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\DetalleFactura.cs",
+              "RelativeToolTip": "Dominio\\DetalleFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T01:47:55.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Program.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T01:41:15.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "FacturaServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Servicio\\FacturaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Servicio\\FacturaServicio.cs",
               "RelativeDocumentMoniker": "Servicio\\FacturaServicio.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Servicio\\FacturaServicio.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Servicio\\FacturaServicio.cs",
               "RelativeToolTip": "Servicio\\FacturaServicio.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowBoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:35:13.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FacturaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\FacturaRepository.cs",
-              "RelativeDocumentMoniker": "Data\\FacturaRepository.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\FacturaRepository.cs",
-              "RelativeToolTip": "Data\\FacturaRepository.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:29:55.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T03:35:13.359Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IFormaPagoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\IFormaPagoRepository.cs",
-              "RelativeDocumentMoniker": "Data\\IFormaPagoRepository.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\IFormaPagoRepository.cs",
-              "RelativeToolTip": "Data\\IFormaPagoRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Title": "SPparametros.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\Helpers\\SPparametros.cs",
+              "RelativeDocumentMoniker": "Data\\Helpers\\SPparametros.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\Helpers\\SPparametros.cs",
+              "RelativeToolTip": "Data\\Helpers\\SPparametros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:18:40.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-04T02:06:04.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\DataHelper.cs",
-              "RelativeDocumentMoniker": "Data\\DataHelper.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\DataHelper.cs",
-              "RelativeToolTip": "Data\\DataHelper.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAawCUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:59:57.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Factura.cs",
-              "RelativeDocumentMoniker": "Dominio\\Factura.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Factura.cs",
-              "RelativeToolTip": "Dominio\\Factura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:47:41.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "Dominio\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:48:18.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T01:37:53.867Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DetalleFactura.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\DetalleFactura.cs",
-              "RelativeDocumentMoniker": "Dominio\\DetalleFactura.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\DetalleFactura.cs",
-              "RelativeToolTip": "Dominio\\DetalleFactura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Factura.cs",
+              "RelativeDocumentMoniker": "Dominio\\Factura.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Factura.cs",
+              "RelativeToolTip": "Dominio\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:47:55.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T01:47:41.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "IFormaPagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\IFormaPagoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IFormaPagoRepository.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Data\\IFormaPagoRepository.cs",
+              "RelativeToolTip": "Data\\IFormaPagoRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:18:40.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T01:48:18.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-04T02:06:04.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FormaPago.cs",
-              "DocumentMoniker": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\FormaPago.cs",
+              "DocumentMoniker": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\FormaPago.cs",
               "RelativeDocumentMoniker": "Dominio\\FormaPago.cs",
-              "ToolTip": "C:\\Users\\Gino\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\FormaPago.cs",
+              "ToolTip": "C:\\Users\\gomez\\Desktop\\almacen\\almacen\\proyecto[Practica01]\\Dominio\\FormaPago.cs",
               "RelativeToolTip": "Dominio\\FormaPago.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T01:48:32.226Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 639,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-09-04T01:48:32.226Z"
             }
           ]
         }

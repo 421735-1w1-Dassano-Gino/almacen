@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using Microsoft.Data.SqlClient;
 
-namespace proyecto_Practica01_.Data
+namespace proyecto_Practica01_.Data.Helpers
 {
     public class DataHelper
     {
@@ -42,6 +42,42 @@ namespace proyecto_Practica01_.Data
                 _connection.Close();
             }
             return dt;
+        }
+        public bool ExecuteSpDml(string sp, List<SPparametros>? parametro = null)
+        {
+            bool result;
+            try
+            {
+                // Abrimos la conexión
+                _connection.Open();
+                var cmd = new SqlCommand(sp, _connection);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                // Agregamos parámetros si los hay
+                if (parametro != null)
+                {
+                    foreach (SPparametros p in parametro)
+                    {
+                        cmd.Parameters.AddWithValue(p.Nombre, p.Valor);
+                    }
+                }
+
+                int affectedRows = cmd.ExecuteNonQuery();
+
+                result = affectedRows > 0;
+            }
+            catch (SqlException ex)
+            {
+                // En caso de error, retornamos false
+                result = false;
+            }
+            finally
+            {
+                // Cerramos la conexión
+                _connection.Close();
+            }
+
+            return result;
         }
 
     }

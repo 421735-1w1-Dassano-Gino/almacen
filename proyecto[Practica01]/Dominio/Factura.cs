@@ -13,7 +13,9 @@ namespace proyecto_Practica01_.Dominio
         public int nro_factura {  get; set; } 
         public DateTime Fecha { get; set; }
 
-        public string FormaPago { get; set; }
+        public string FormaPago {  get; set; }
+
+        public int id_formapago { get; set; }
 
         public string Cliente { get; set; }
 

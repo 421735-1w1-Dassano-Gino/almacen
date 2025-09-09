@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using proyecto_Practica01_.Dominio;
+using proyecto_Practica01_.Data.Helpers;
 
 
 namespace proyecto_Practica01_.Data
@@ -23,7 +24,7 @@ namespace proyecto_Practica01_.Data
                 f.nro_factura = (int)row["nro_factura"];
                 f.Fecha = (DateTime)row["fecha"];
                 f.FormaPago = (string)row["nombre"];
-                f.Cliente = (string)row["cliente"];
+                f.Cliente = (string)row["cliente"]; 
                 lst.Add(f);
             }
             return lst;
@@ -35,7 +36,15 @@ namespace proyecto_Practica01_.Data
         }
         public bool Save(Factura factura)
         {
-            throw new NotImplementedException();
+            List<SPparametros> sp = new List<SPparametros>()
+            {
+                new SPparametros("@ID", factura.nro_factura),
+                new SPparametros("@fecha",factura.Fecha),
+                new SPparametros("@formapago",factura.id_formapago),
+                new SPparametros("@cliente",factura.Cliente)
+            };
+            return DataHelper.GetInstance().ExecuteSpDml("SP_GUARDAR_FACTURA", sp);
+
         }
         public Factura GetById(int id) 
         {
@@ -68,7 +77,15 @@ namespace proyecto_Practica01_.Data
         }
         public bool Save(DetalleFactura detalleFactura)
         {
-            throw new NotImplementedException();
+            List<SPparametros> DFlst = new List<SPparametros>() 
+            {
+                new SPparametros("@ID", detalleFactura.idDetalle),
+                new SPparametros("@factura",detalleFactura.idFactura),
+                new SPparametros("@articulo",detalleFactura.articulo),
+                new SPparametros("@cantidad",detalleFactura.Cantidad)
+            };
+            return DataHelper.GetInstance().ExecuteSpDml("SP_GUARDAR_DETALLE", DFlst);
+
         }
         public DetalleFactura GetById(int id)
         {
@@ -88,7 +105,7 @@ namespace proyecto_Practica01_.Data
                 Articulo a = new Articulo();
                 a.id_articulo = (int)row["id_articulo"];
                 a.Nombre = (string)row["nombre"];
-                a.PrecioUnitario = (int)row["precioUnitario"];
+                a.PrecioUnitario = (decimal)row["precioUnitario"];
                 lst.Add(a);
             }
             return lst;
@@ -100,7 +117,14 @@ namespace proyecto_Practica01_.Data
         }
         public bool Save(Articulo articulo)
         {
-            throw new NotImplementedException();
+            List<SPparametros> parametro = new List<SPparametros>()
+            {
+                new SPparametros("@id", articulo.id_articulo),
+                new SPparametros("@nombre", articulo.Nombre),
+                new SPparametros("@precio", articulo.PrecioUnitario)
+            };
+            return DataHelper.GetInstance().ExecuteSpDml("SP_GUARDAR_ARTICULO",parametro);
+
         }
         public Articulo GetById(int id)
         {
